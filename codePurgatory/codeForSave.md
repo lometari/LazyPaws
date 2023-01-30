@@ -2,6 +2,8 @@
 
 Файл с решениями, чтобы спустя какое-то время улыбнуться/ужаснуться/сравнить уровни тогда и сейчас или все вышеперечисленное.
 
+А  еще этот код навечно останется таким и будет мучиться здесь до скончания времен! Буга-га!
+
 ### **Arguments Optional**
 Задачка: [Arguments Optional](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/arguments-optional "Arguments Optional - freeCodeCamp")
 
