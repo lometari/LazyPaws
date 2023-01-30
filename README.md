@@ -33,7 +33,6 @@ There are multiple sunrise and sunsets effects on Mercury.  It looks like Sun is
 **<details><summary><span style="color:#E8A0BF">Dummy</span>**</summary>
 
 ## Дата
-****
 ### **<span style="color:#0AA1DD"># Основное:**</span>
 
 Текст
