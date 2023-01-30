@@ -23,7 +23,7 @@ function addTogether(a,b) {
   else if (b === undefined){
  
           return function(b){
-              if (!Number.isInteger(b)|| b === undefined){
+              if (!Number.isInteger(b)){
                 console.log('b определено как не число. b= '+ b + ', тип данных= '+ typeof b);
                 return undefined;
               } 
