@@ -4,6 +4,51 @@
 
 А  еще этот код навечно останется таким и будет мучиться здесь до скончания времен! Буга-га!
 
+### **Make a Person**
+[Make a Person](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/make-a-person "Make a Person - freeCodeCamp")
+
+Код лапками:
+```js
+const Person = function(firstAndLast) {
+  // Only change code below this line
+  // Complete the method below and implement the others similarly
+    let firstName = firstAndLast.split(' ')[0];
+    let lastName = firstAndLast.split(' ')[1];
+  
+    this.getFirstName = function(){
+    return firstName;
+    }
+    this.getLastName = function(){
+      return lastName;
+    }
+    this.getFullName = function(){
+      return firstName + ' ' + lastName;
+    }
+
+    this.setFirstName = function(first){
+      firstName = first;
+    }
+    this.setLastName = function(last){
+      lastName = last;
+    }
+    this.setFullName = function(firstAndLast){
+      firstName = firstAndLast.split(' ')[0];
+      lastName = firstAndLast.split(' ')[1];
+    }
+
+  
+};
+
+const bob = new Person('Bob Ross');
+
+console.log("Object.keys(bob).length: " + Object.keys(bob).length);
+console.log("bob instanceof Person: " + (bob instanceof Person));
+console.log("bob.firstName: " + bob.firstName);
+console.log(bob);
+console.log("--------------------------------------------------");
+console.log("bob.getFirstName(): " + (bob.getFirstName()));
+``` 
+
 ### **Arguments Optional**
 Задачка: [Arguments Optional](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/arguments-optional "Arguments Optional - freeCodeCamp")
 
