@@ -4,6 +4,31 @@
 
 А  еще этот код навечно останется таким и будет мучиться здесь до скончания времен! Буга-га!
 
+### **Map the Debris**
+[Map the Debris](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/map-the-debris "Map the Debris - freeCodeCamp")
+
+Код лапками:
+```js
+function orbitalPeriod(arr) {
+  const GM = 398600.4418;
+  const earthRadius = 6367.4447;
+  let arrFinal = [];
+  
+  arr.forEach(calcT);
+
+  function calcT(item) {
+    console.log(item.avgAlt);
+    let doneCalc = Math.round(2*Math.PI*Math.sqrt(Math.pow((item.avgAlt + earthRadius), 3)/GM));
+    arrFinal.push({"name":item.name, "orbitalPeriod":doneCalc});
+    console.log(arrFinal);
+  }
+
+return arrFinal;
+}
+
+orbitalPeriod([{name : "sputnik", avgAlt : 35873.5553}]);
+```
+
 ### **Make a Person**
 [Make a Person](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/make-a-person "Make a Person - freeCodeCamp")
 
